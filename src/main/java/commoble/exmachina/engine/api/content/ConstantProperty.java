@@ -23,8 +23,14 @@ import net.minecraft.world.level.block.state.BlockState;
 public record ConstantProperty(double value) implements StaticProperty
 {
 	public static final ResourceKey<Codec<? extends StaticProperty>> KEY = ResourceKey.create(ExMachinaRegistries.STATIC_PROPERTY_TYPE, ExMachinaEngine.exMachinaRl(Names.CONSTANT));
-	public static final ConstantProperty ZERO = new ConstantProperty(0D);
 	public static final Codec<ConstantProperty> CODEC = Codec.DOUBLE.fieldOf("value").xmap(ConstantProperty::of, ConstantProperty::value).codec();
+
+	private static final ConstantProperty ZERO = new ConstantProperty(0D);
+	
+	public static ConstantProperty zero()
+	{
+		return ZERO;
+	}
 
 	public static ConstantProperty of(double value)
 	{

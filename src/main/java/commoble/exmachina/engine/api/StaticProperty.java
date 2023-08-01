@@ -16,7 +16,7 @@ import net.minecraft.world.level.block.state.BlockState;
  * Static Properties are assigned to blocks as part of their circuit component definition.
  * They can only vary by blockstate, but are more efficient to calculate for large circuits.
  * 
- * Subcodecs of StaticProperty can be registered to {@link ExMachinaRegistries.STATIC_PROPERTY_TYPE}.
+ * Subcodecs of StaticProperty can be registered to {@link ExMachinaRegistries#STATIC_PROPERTY_TYPE}.
 <pre>
 {
 	"type": "modid:registered_type_id",
@@ -45,7 +45,7 @@ public interface StaticProperty
 	 * Returns whether blocks with this property have this property.
 	 * If false, blocks with this property will be ignored when calculating the total value (saves us from having to add 100 zeros together).
 	 * 
-	 * Consider using {@link ConstantPropery.ZERO} instead of overriding.
+	 * Consider using {@link ConstantPropery#zero} instead of overriding.
 	 * 
 	 * @return Whether blocks with this property can provide a value to the circuit
 	 */
@@ -55,7 +55,7 @@ public interface StaticProperty
 	}
 	
 	/**
-	 * {@return Codec registered to {@link ExMachinaRegistries.STATIC_PROPERTY_TYPE}.}
+	 * {@return Codec registered to {@link ExMachinaRegistries#STATIC_PROPERTY_TYPE}.}
 	 */
 	public abstract Codec<? extends StaticProperty> codec();
 	

@@ -17,7 +17,7 @@ import net.minecraft.world.level.block.state.BlockState;
  * If the value of a dynamic property of a block in the world changes, it must notify the
  * circuit manager capability of a dynamic update.
  * 
- * Subcodecs of DynamicProperty can be registered to {@link ExMachinaRegistries.DYNAMIC_PROPERTY_TYPE}.
+ * Subcodecs of DynamicProperty can be registered to {@link ExMachinaRegistries#DYNAMIC_PROPERTY_TYPE}.
 <pre>
 {
 	"type": "modid:registered_type_id",

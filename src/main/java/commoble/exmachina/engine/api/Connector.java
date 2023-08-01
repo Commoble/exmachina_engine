@@ -17,7 +17,7 @@ import net.minecraft.world.level.block.state.BlockState;
  * If blocks at two positions are both capable of connecting to each other's position,
  * then a circuit network can and will extend from one position to the other.
  * 
- * Subcodecs of Connector can be registered to {@link ExMachinaRegistries.CONNECTOR_TYPE}.
+ * Subcodecs of Connector can be registered to {@link ExMachinaRegistries#CONNECTOR_TYPE}.
 <pre>
 {
 	"type": "modid:registered_type_id",
@@ -37,14 +37,14 @@ public interface Connector
 	public abstract DataResult<BlockConnector> bake(Block block);
 	
 	/**
-	 * {@return Codec registered to {@link ExMachinaRegistries.CONNECTOR_TYPE}}.
+	 * {@return Codec registered to {@link ExMachinaRegistries#CONNECTOR_TYPE}}.
 	 */
 	public Codec<? extends Connector> codec();
 	
 	/**
 	 * Returns whether this is a valid Connector.
 	 * If false, will be ignored by the graph builder.
-	 * Consider using {@link NoneCircuitComponent} instead of overriding.
+	 * Consider using {@link CircuitComponent#empty()} instead of overriding.
 	 * 
 	 * @return Whether the component can be part of a circuit.
 	 */
