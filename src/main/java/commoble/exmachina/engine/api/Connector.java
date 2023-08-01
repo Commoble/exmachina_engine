@@ -75,7 +75,6 @@ public interface Connector
 		 * Retrieves the set of positions a block at the given position can connect to.
 		 * @param level Level of the given block
 		 * @param pos BlockPos of the given block
-		 * @param state BlockState of the given block
 		 * @return Set<BlockPos> of the positions that block can connect to.
 		 */
 		public abstract Set<BlockPos> connectedPositions(LevelReader level, BlockPos pos);

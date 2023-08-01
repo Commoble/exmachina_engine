@@ -45,7 +45,7 @@ public interface StaticProperty
 	 * Returns whether blocks with this property have this property.
 	 * If false, blocks with this property will be ignored when calculating the total value (saves us from having to add 100 zeros together).
 	 * 
-	 * Consider using {@link ConstantPropery#zero} instead of overriding.
+	 * Consider using {@link ConstantProperty#zero()} instead of overriding.
 	 * 
 	 * @return Whether blocks with this property can provide a value to the circuit
 	 */

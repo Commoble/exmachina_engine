@@ -38,14 +38,14 @@ public interface DynamicProperty
 	public double getValue(LevelReader level, BlockPos pos, BlockState state);
 	
 	/**
-	 * {@return Codec registered to {@link ExMachinaRegistries.DYNAMIC_PROPERTY_TYPE}.}
+	 * {@return Codec registered to {@link ExMachinaRegistries#DYNAMIC_PROPERTY_TYPE}.}
 	 */
 	public Codec<? extends DynamicProperty> codec();
 	
 	/**
 	 * {@return boolean indicating whether this property exists.
 	 * If false, dynamic values will not be checked for the associated block.
-	 * Consider using {@link NoneDynamicProperty.INSTANCE} instead of overriding this.
+	 * Consider using {@link NoneDynamicProperty#INSTANCE} instead of overriding this.}
 	 */
 	default boolean isPresent()
 	{
