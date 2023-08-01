@@ -40,8 +40,8 @@ public record CircuitComponent(
 {
 	public static final Codec<CircuitComponent> CODEC = RecordCodecBuilder.create(builder -> builder.group(
 			NullableFieldCodec.makeDefaultableField("connector", Connector.CODEC, NoneConnector.INSTANCE).forGetter(CircuitComponent::connector),
-			NullableFieldCodec.makeDefaultableField("static_load", StaticProperty.CODEC, ConstantProperty.ZERO).forGetter(CircuitComponent::staticLoad),
-			NullableFieldCodec.makeDefaultableField("static_source", StaticProperty.CODEC, ConstantProperty.ZERO).forGetter(CircuitComponent::staticSource),
+			NullableFieldCodec.makeDefaultableField("static_load", StaticProperty.CODEC, ConstantProperty.zero()).forGetter(CircuitComponent::staticLoad),
+			NullableFieldCodec.makeDefaultableField("static_source", StaticProperty.CODEC, ConstantProperty.zero()).forGetter(CircuitComponent::staticSource),
 			NullableFieldCodec.makeDefaultableField("dynamic_load", DynamicProperty.CODEC, NoneDynamicProperty.INSTANCE).forGetter(CircuitComponent::dynamicLoad),
 			NullableFieldCodec.makeDefaultableField("dynamic_source", DynamicProperty.CODEC, NoneDynamicProperty.INSTANCE).forGetter(CircuitComponent::dynamicSource)
 		).apply(builder, CircuitComponent::new));
@@ -61,8 +61,8 @@ public record CircuitComponent(
 	
 	private static final CircuitComponent EMPTY = new CircuitComponent(
 		NoneConnector.INSTANCE,
-		ConstantProperty.ZERO,
-		ConstantProperty.ZERO,
+		ConstantProperty.zero(),
+		ConstantProperty.zero(),
 		NoneDynamicProperty.INSTANCE,
 		NoneDynamicProperty.INSTANCE);
 }
