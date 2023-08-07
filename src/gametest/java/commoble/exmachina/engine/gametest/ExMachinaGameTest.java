@@ -6,9 +6,9 @@ import java.util.function.Predicate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import commoble.exmachina.engine.Names;
 import commoble.exmachina.engine.api.Circuit;
 import commoble.exmachina.engine.api.CircuitManager;
+import commoble.exmachina.engine.internal.Names;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.gametest.framework.GameTest;

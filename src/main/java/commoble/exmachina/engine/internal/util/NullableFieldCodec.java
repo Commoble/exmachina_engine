@@ -24,7 +24,7 @@ SOFTWARE.
 
  */
 
-package commoble.exmachina.engine.util;
+package commoble.exmachina.engine.internal.util;
 
 import java.util.Optional;
 

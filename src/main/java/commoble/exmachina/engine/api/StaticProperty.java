@@ -7,7 +7,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 
 import commoble.exmachina.engine.api.content.ConstantProperty;
-import commoble.exmachina.engine.util.CodecHelper;
+import commoble.exmachina.engine.internal.util.CodecHelper;
 import net.minecraft.util.ExtraCodecs;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;

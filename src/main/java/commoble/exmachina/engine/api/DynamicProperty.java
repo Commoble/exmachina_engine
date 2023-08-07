@@ -3,7 +3,7 @@ package commoble.exmachina.engine.api;
 import com.mojang.serialization.Codec;
 
 import commoble.exmachina.engine.api.content.NoneDynamicProperty;
-import commoble.exmachina.engine.util.CodecHelper;
+import commoble.exmachina.engine.internal.util.CodecHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.state.BlockState;

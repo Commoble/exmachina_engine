@@ -4,7 +4,7 @@ import java.util.Map;
 
 import org.apache.commons.lang3.tuple.Pair;
 
-import commoble.exmachina.engine.circuit.EmptyCircuit;
+import commoble.exmachina.engine.internal.circuit.EmptyCircuit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.state.BlockState;
 

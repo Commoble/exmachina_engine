@@ -3,10 +3,10 @@ package commoble.exmachina.engine.api.content;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 
-import commoble.exmachina.engine.ExMachinaEngine;
-import commoble.exmachina.engine.Names;
 import commoble.exmachina.engine.api.ExMachinaRegistries;
 import commoble.exmachina.engine.api.StaticProperty;
+import commoble.exmachina.engine.internal.ExMachinaEngine;
+import commoble.exmachina.engine.internal.Names;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;

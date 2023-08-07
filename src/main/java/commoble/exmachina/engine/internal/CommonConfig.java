@@ -1,4 +1,4 @@
-package commoble.exmachina.engine;
+package commoble.exmachina.engine.internal;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.ForgeConfigSpec.IntValue;

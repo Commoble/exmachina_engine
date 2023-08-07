@@ -2,11 +2,11 @@ package commoble.exmachina.engine.api.content;
 
 import com.mojang.serialization.Codec;
 
-import commoble.exmachina.engine.ExMachinaEngine;
-import commoble.exmachina.engine.Names;
 import commoble.exmachina.engine.api.Connector;
 import commoble.exmachina.engine.api.DynamicProperty;
 import commoble.exmachina.engine.api.ExMachinaRegistries;
+import commoble.exmachina.engine.internal.ExMachinaEngine;
+import commoble.exmachina.engine.internal.Names;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.LevelReader;

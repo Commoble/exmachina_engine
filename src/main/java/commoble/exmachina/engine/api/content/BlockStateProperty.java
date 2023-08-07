@@ -8,11 +8,11 @@ import java.util.function.Predicate;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 
-import commoble.exmachina.engine.ExMachinaEngine;
-import commoble.exmachina.engine.Names;
 import commoble.exmachina.engine.api.ExMachinaRegistries;
 import commoble.exmachina.engine.api.StaticProperty;
-import commoble.exmachina.engine.util.StateReader;
+import commoble.exmachina.engine.internal.ExMachinaEngine;
+import commoble.exmachina.engine.internal.Names;
+import commoble.exmachina.engine.internal.util.StateReader;
 import it.unimi.dsi.fastutil.objects.Object2DoubleMap;
 import it.unimi.dsi.fastutil.objects.Object2DoubleOpenHashMap;
 import net.minecraft.resources.ResourceKey;

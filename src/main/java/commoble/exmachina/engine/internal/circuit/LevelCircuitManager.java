@@ -1,4 +1,4 @@
-package commoble.exmachina.engine.circuit;
+package commoble.exmachina.engine.internal.circuit;
 
 import java.util.ArrayList;
 import java.util.HashMap;

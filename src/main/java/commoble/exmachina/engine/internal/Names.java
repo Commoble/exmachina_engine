@@ -1,4 +1,4 @@
-package commoble.exmachina.engine;
+package commoble.exmachina.engine.internal;
 
 public class Names
 {

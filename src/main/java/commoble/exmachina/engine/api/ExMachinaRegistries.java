@@ -2,8 +2,8 @@ package commoble.exmachina.engine.api;
 
 import com.mojang.serialization.Codec;
 
-import commoble.exmachina.engine.ExMachinaEngine;
-import commoble.exmachina.engine.Names;
+import commoble.exmachina.engine.internal.ExMachinaEngine;
+import commoble.exmachina.engine.internal.Names;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 

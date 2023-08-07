@@ -1,4 +1,4 @@
-package commoble.exmachina.engine;
+package commoble.exmachina.engine.internal;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,8 +13,8 @@ import commoble.exmachina.engine.api.content.ConstantProperty;
 import commoble.exmachina.engine.api.content.DirectionsConnector;
 import commoble.exmachina.engine.api.content.NoneDynamicProperty;
 import commoble.exmachina.engine.api.content.UnionConnector;
-import commoble.exmachina.engine.circuit.ComponentBaker;
-import commoble.exmachina.engine.util.ConfigHelper;
+import commoble.exmachina.engine.internal.circuit.ComponentBaker;
+import commoble.exmachina.engine.internal.util.ConfigHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;

@@ -5,7 +5,7 @@ import java.util.Set;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 
-import commoble.exmachina.engine.util.CodecHelper;
+import commoble.exmachina.engine.internal.util.CodecHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;

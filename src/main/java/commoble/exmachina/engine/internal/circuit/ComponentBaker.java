@@ -1,4 +1,4 @@
-package commoble.exmachina.engine.circuit;
+package commoble.exmachina.engine.internal.circuit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

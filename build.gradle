@@ -141,7 +141,7 @@ publishing {
 	publications {
 		mavenJava(MavenPublication) {
 			artifactId project.archivesBaseName
-			artifact tasks.jarJar
+            artifact jar
 			artifact sourcesJar
 			artifact javadocJar
 		}

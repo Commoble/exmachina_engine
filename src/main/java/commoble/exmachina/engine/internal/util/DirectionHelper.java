@@ -1,4 +1,4 @@
-package commoble.exmachina.engine.util;
+package commoble.exmachina.engine.internal.util;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.Direction.Axis;

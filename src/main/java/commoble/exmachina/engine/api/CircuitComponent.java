@@ -8,7 +8,7 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import commoble.exmachina.engine.api.content.ConstantProperty;
 import commoble.exmachina.engine.api.content.NoneConnector;
 import commoble.exmachina.engine.api.content.NoneDynamicProperty;
-import commoble.exmachina.engine.util.NullableFieldCodec;
+import commoble.exmachina.engine.internal.util.NullableFieldCodec;
 
 /**
  * CircuitComponents represent the circuit properties associated with particular Blocks.

@@ -1,4 +1,4 @@
-package commoble.exmachina.engine.circuit;
+package commoble.exmachina.engine.internal.circuit;
 
 import java.util.ArrayList;
 import java.util.Deque;
@@ -17,10 +17,10 @@ import com.google.common.collect.HashMultiset;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Multiset;
 
-import commoble.exmachina.engine.ExMachinaEngine;
 import commoble.exmachina.engine.api.Circuit;
 import commoble.exmachina.engine.api.DynamicProperty;
 import commoble.exmachina.engine.api.StateComponent;
+import commoble.exmachina.engine.internal.ExMachinaEngine;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.world.level.LevelAccessor;
